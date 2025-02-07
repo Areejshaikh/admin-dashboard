@@ -1,13 +1,11 @@
-import AdminLogin from "./admin/page";
+import AdminDashboard from './admin/dashboard/page'
 
-export default function Home() {
+const Home = () => {
   return (
-   <>
-   
-
-   <AdminLogin/>
-
-
-   </>
-  );
+    <div>
+      <AdminDashboard/>
+    </div>
+  )
 }
+
+export default Home
