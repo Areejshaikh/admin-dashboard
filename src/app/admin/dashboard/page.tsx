@@ -135,7 +135,7 @@ export default function AdminDashboard() {
           <h2 className="text-2xl font-bold mb-4 text-center">Orders</h2>
           <div className="overflow-x-auto bg-white shadow-md rounded-lg text-center">
             <table className="min-w-full divide-y divide-gray-200 text-sm lg:text-base">
-              <thead className="bg-gray-50 text-red-600">
+              <thead className="bg-gray-100 text-red-600">
                 <tr>
                   <th>Customer ID</th>
                   <th>Customer Name</th>
